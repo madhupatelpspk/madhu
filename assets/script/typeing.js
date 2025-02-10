@@ -7,9 +7,10 @@ const texts = [
   "Web Designer",
   "Video Editor",
   "Blogger",
-  "Content Writer",
+  "Ethical Hacker",
   "Android Developer",
   "YouTuber",
+  "Jai Shree Ram",
 ];
 
 const typingDelay = 200;
