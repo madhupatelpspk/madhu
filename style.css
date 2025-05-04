@@ -170,3 +170,12 @@ img {
 	border-radius: 10px;
 	overflow: hidden;
 }
+
+.sakura {
+	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
+	background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)); */
+	background: url(../assets/img/icons8-violet-flower-96.png);
+	background-size: 100% 100%;
+	pointer-events: none;
+	position: absolute
+}
