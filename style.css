@@ -133,3 +133,40 @@ img {
 
     .portfolio-img:hover .portfolio-link { bottom: 10; }
 .portfolio-link-color { color: var(--dark-color); }
+
+.venue {
+	width: auto;
+	height: auto;
+	background-color: var(--primary-color);
+	border-radius: .75rem;
+	text-align: center;
+	color: #fff;
+	padding: 1rem 1.75rem;
+	margin-right: 8px;
+	font-weight: 600;
+	transition: .3s;
+}
+
+.venue:hover {
+	background-color: var(--second-color);
+	color: var(--title-color);
+}
+
+.venue a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.table_container {
+	display: grid;
+	grid-template-columns: 1fr;
+	border-radius: 10px;
+	overflow: hidden;
+}
