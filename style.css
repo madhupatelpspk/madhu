@@ -171,11 +171,9 @@ img {
 	overflow: hidden;
 }
 
-.sakura {
-	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
-	background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)); */
-	background: url(../assets/img/icons8-violet-flower-96.png);
-	background-size: 100% 100%;
-	pointer-events: none;
-	position: absolute
+/* CSS for adding border */
+body {
+  border: 5px solid #007BFF; /* 5px solid blue border */
+  box-sizing: border-box; /* Ensures border is included in width/height calculations */
 }
+
