@@ -208,3 +208,11 @@ main #about-section li {
 main #about-section li b {
   color: var(--color-text);
 }
+
+main #about-section {
+  max-width: 80%;
+  margin: auto;
+  border: 2px solid #007BFF; /* Adds a blue border */
+  padding: 15px; /* Adds padding inside the border */
+  border-radius: 10px; /* Optional: Rounds the corners of the border */
+}
